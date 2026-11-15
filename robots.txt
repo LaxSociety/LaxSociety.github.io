@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://laxsociety.github.io/sitemap.xml
