@@ -7,7 +7,7 @@ Source for [laxsociety.github.io](https://laxsociety.github.io): open-source app
 
 ## How it works
 
-The whole site is one static `index.html` with inline CSS and a little JavaScript: the hero typing effect, the category flags, and the small interactive shell (`help`, `ls`, `open <project>`, `whoami`, `github`, `youtube`, `clear`). Animations are skipped when the visitor prefers reduced motion. There is no framework and no build step. GitHub Pages serves it from the `main` branch.
+The whole site is one static `index.html` with inline CSS and a little JavaScript: the hero typing effect, the category flags, and the small interactive shell (`help`, `ls`, `products`, `open <project>`, `whoami`, `github`, `youtube`, `clear`). Animations are skipped when the visitor prefers reduced motion. There is no framework and no build step. GitHub Pages serves it from the `main` branch.
 
 ```
 index.html        the page
@@ -26,11 +26,15 @@ python3 -m http.server 8823
 
 ## Adding a project
 
-Each project appears twice in `index.html`. Featured projects get an `article.fcard` in the Featured window. Every project also gets an `li.row` in the All projects list, which is a `<details>` element whose `<summary>` is the `ls -la` line. Copy an existing entry and change the text and links. Set `data-cat` on the row to one of the filter values (`tv`, `mac`, `ai`, `web`, `games`, `classic`) and update the counts on the flag buttons. Add the logo to `assets/logos/`. Add the project to the `PROJECTS` map in the script at the bottom so the shell's `open` command can find it, and to the `ItemList` in the JSON-LD block in `<head>`.
+Each project appears twice in `index.html`. Featured projects get an `article.fcard` in the Featured window. Every project also gets an `li.row` in the All projects list, which is a `<details>` element whose `<summary>` is the `ls -la` line. Copy an existing entry and change the text and links. Set `data-cat` on the row to one of the filter values (`ai`, `robotics`, `tv`, `mac`, `web`, `games`, `classic`) and update the counts on the flag buttons. Add the logo to `assets/logos/`. Add the project to the `PROJECTS` map in the script at the bottom so the shell's `open` command can find it, and to the `ItemList` in the JSON-LD block in `<head>`.
 
 ## Project order
 
-Newest and earning first: mkTV, JobCairn, Gymnom, XOtale, Keepwatch, AgentSkillDeck Skills, VisaRadar, Ludo Raja, then the earlier 2019 to 2024 projects. Featured shows the first six. Gymnom and XOtale are paid products: they also appear under `./products --paid` in the hero and are never labelled open source. Keep the JSON-LD `ItemList` in the same order.
+Newest and earning first: mkTV, JobCairn, Gymnom, XOtale, Keepwatch, Agentic Skill Deck, VisaRadar, Ludo Raja, then the earlier 2019 to 2024 projects. Keep the JSON-LD `ItemList` in the same order.
+
+- Gymnom and XOtale are paid products with a free option. They get their own `./products --paid` window above Featured and are never labelled open source.
+- Featured shows mkTV, JobCairn, Keepwatch and Agentic Skill Deck.
+- The `./coming-up` window lists the LLM, AI agent and robotics pillars as coming soon. Add real projects to All projects when they ship (`data-cat="ai"` or `"robotics"`), and don't list anything that hasn't shipped.
 
 ## Logo
 

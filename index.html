@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lax Society: open-source apps, built in public</title>
-<meta name="description" content="Lax Society is a collection of open-source apps built in public by JKL404: mkTV, Keepwatch, JobCairn, AgentSkillDeck skills and more. Code on GitHub, builds on YouTube.">
+<title>Lax Society: AI engineering and open-source apps, built in public</title>
+<meta name="description" content="AI engineering and open-source apps, built in public: LLMs, AI agents, robotics, plus apps for Android TV, Mac, the web and games. By JKL404. Code on GitHub, builds on YouTube.">
 <link rel="canonical" href="https://laxsociety.github.io/">
 <meta name="theme-color" content="#07070a">
 <meta name="color-scheme" content="dark">
@@ -14,16 +14,16 @@
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lax Society">
-<meta property="og:title" content="Lax Society: open-source apps, built in public">
-<meta property="og:description" content="Open-source apps by JKL404. Code on GitHub, builds on YouTube.">
+<meta property="og:title" content="Lax Society: AI engineering and open-source apps, built in public">
+<meta property="og:description" content="AI engineering and open-source apps, built in public: LLMs, AI agents, robotics, plus apps for Android TV, Mac, the web and games. By JKL404.">
 <meta property="og:url" content="https://laxsociety.github.io/">
 <meta property="og:image" content="https://laxsociety.github.io/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="LAX SOCIETY: open source, built in public">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Lax Society: open-source apps, built in public">
-<meta name="twitter:description" content="Open-source apps by JKL404. Code on GitHub, builds on YouTube.">
+<meta name="twitter:title" content="Lax Society: AI engineering and open-source apps, built in public">
+<meta name="twitter:description" content="AI engineering and open-source apps, built in public: LLMs, AI agents, robotics, plus apps for Android TV, Mac, the web and games. By JKL404.">
 <meta name="twitter:image" content="https://laxsociety.github.io/assets/og.png">
 <script type="application/ld+json">
 {
@@ -35,7 +35,7 @@
    "name": "Lax Society",
    "url": "https://laxsociety.github.io/",
    "logo": "https://laxsociety.github.io/assets/logo-512.png",
-   "description": "Open-source apps, built in public by JKL404.",
+   "description": "AI engineering and open-source apps, built in public: LLMs, AI agents, robotics, plus apps for Android TV, Mac, the web and games.",
    "founder": {
     "@type": "Person",
     "name": "JKL404",
@@ -45,6 +45,16 @@
     "https://github.com/LaxSociety",
     "https://www.youtube.com/@laxsociety",
     "https://github.com/JKL404"
+   ],
+   "knowsAbout": [
+    "Artificial intelligence",
+    "Large language models",
+    "AI agents",
+    "Robotics",
+    "Android TV apps",
+    "macOS apps",
+    "Web development",
+    "Games"
    ]
   },
   {
@@ -54,7 +64,8 @@
    "name": "Lax Society",
    "publisher": {
     "@id": "https://laxsociety.github.io/#org"
-   }
+   },
+   "description": "AI engineering and open-source apps, built in public: LLMs, AI agents, robotics, plus apps for Android TV, Mac, the web and games."
   },
   {
    "@type": "ItemList",
@@ -149,7 +160,7 @@
      "position": 6,
      "item": {
       "@type": "SoftwareApplication",
-      "name": "AgentSkillDeck Skills",
+      "name": "Agentic Skill Deck",
       "description": "A plugin marketplace with two plugins, ui and audio, holding seven skills for coding agents. ui designs, reviews and matches interfaces, and audio turns a script into multi-voice audio on your own machine.",
       "applicationCategory": "DeveloperApplication",
       "operatingSystem": "Claude Code, Coding agents",
@@ -366,17 +377,6 @@ a.by:hover{text-decoration-color:var(--green)}
 .stats{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:34px;font-family:var(--mono);font-size:13px;color:var(--muted)}
 .stats b{color:var(--text);font-weight:600}
 .stats .ok b{color:var(--green)}
-/* hero: paid products callout */
-.paid{margin-top:30px;max-width:760px;border:1px solid var(--line2);border-radius:10px;background:rgba(11,11,16,.85);padding:14px}
-.paid ul{display:grid;gap:8px;margin-top:10px}
-.paid a{display:flex;align-items:center;gap:12px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);text-decoration:none;transition:border-color .2s,background .2s}
-.paid a:hover{border-color:rgba(239,35,60,.6);background:#15151c}
-.paid .logo{width:40px;height:40px;border-radius:9px}
-.pd{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
-.pd strong{font-size:17px}
-.pd span{font-size:14px;color:var(--muted);line-height:1.4}
-.paid .go{display:none;align-items:center;gap:6px;font:13px var(--mono);color:var(--red-text);white-space:nowrap}
-.paid .go svg{width:14px;height:14px}
 
 /* buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 16px;border-radius:8px;font:600 14px/1 var(--mono);text-decoration:none;border:1px solid var(--line2);background:#ffffff08;color:var(--text);transition:background .15s,border-color .15s,transform .15s}
@@ -423,6 +423,20 @@ a.by:hover{text-decoration-color:var(--green)}
 .hl{display:grid;gap:6px}
 .hl li{overflow-wrap:anywhere;position:relative;padding-left:22px;font-size:15px;color:var(--body)}
 .hl li::before{content:">";position:absolute;left:0;top:0;font-family:var(--mono);color:var(--green)}
+
+/* products */
+.free{font:600 14px/1.5 var(--mono);color:var(--green);margin-top:2px}
+.free::before{content:"# ";color:var(--cm)}
+.win-paid{border-color:rgba(239,35,60,.45)}
+.pcard .cat a{color:var(--red-text);text-decoration:underline;text-decoration-color:rgba(255,77,94,.4);text-underline-offset:3px}
+.soon{border-top:1px dashed var(--line2);font:14px/1.5 var(--mono)}
+.soon li{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;padding:12px 6px;border-bottom:1px dashed var(--line2)}
+.soon .perm{display:none;font-size:13px}
+.soon .g{color:var(--green);font-weight:600;min-width:11ch}
+.soon .sd{flex:1;color:var(--body);font-family:var(--sans);font-size:15px}
+.soon .a{color:var(--amber);font-size:12px;font-weight:600}
+.empty{font:14px/1.5 var(--mono);color:var(--amber);padding:12px 6px}
+.empty a{color:var(--green)}
 
 /* featured */
 .fgrid{display:grid;gap:14px;grid-template-columns:1fr;margin-top:24px}
@@ -512,7 +526,6 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
 
 @media (min-width:600px){
   .wrap{padding:0 20px}
-  .paid .go{display:inline-flex}
   .brand img{height:50px}
   .nav .hide-s{display:list-item}
   .win-body{padding:24px 24px 28px}
@@ -520,6 +533,7 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
   .row summary{grid-template-columns:32px minmax(0,1fr) auto auto 18px;grid-template-areas:"logo name cat st chev"}
   .rcat{min-width:7.5ch}
   .rbody{margin-left:44px}
+  .soon .perm{display:inline}
 }
 @media (min-width:900px){
   section{padding:40px 0}
@@ -566,7 +580,8 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
     <a class="brand" href="#top"><img src="assets/lockup.svg" alt="Lax Society" width="120" height="36"></a>
     <nav aria-label="Main">
       <ul>
-        <li><a href="#projects"><span class="tl">~/</span>projects</a></li>
+        <li class="hide-s"><a href="#products"><span class="tl">~/</span>products</a></li>
+        <li><a href="#featured"><span class="tl">~/</span>projects</a></li>
         <li><a href="#orgs"><span class="tl">~/</span>orgs</a></li>
         <li class="hide-s"><a href="#shell"><span class="tl">~/</span>shell</a></li>
         <li><a class="ico" href="https://www.youtube.com/@laxsociety" rel="noopener" target="_blank" aria-label="YouTube (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-yt"/></svg><span>YouTube</span></a></li>
@@ -581,19 +596,49 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
   <div class="wrap">
     <p class="prompt"><b>lax@society</b>:~$ <span class="sr">open source, built in public</span><span class="typed" id="typed" aria-hidden="true">open source, built in public</span><span class="tcur" id="tcur" aria-hidden="true"></span></p>
     <h1>LAX <span class="w">SOCIETY</span><span class="cursor" aria-hidden="true"></span></h1>
-    <p class="intro">Apps for Android TV, Mac, AI agents, the web and games, most of them free and open source, built in public by <a class="by" href="https://github.com/JKL404" rel="noopener" target="_blank">JKL404</a>. The code is on GitHub, and the builds are on YouTube.</p>
+    <p class="intro">AI engineering and open-source apps, built in public: LLMs, AI agents, robotics, plus apps for Android TV, Mac, the web and games. By <a class="by" href="https://github.com/JKL404" rel="noopener" target="_blank">JKL404</a>. The code is on GitHub, and the builds are on YouTube.</p>
     <div class="cta">
       <a class="btn btn-primary btn-lg" href="#featured"><svg aria-hidden="true" width="18" height="18"><use href="#i-down"/></svg><span>See projects</span></a>
       <a class="btn btn-lg" href="https://www.youtube.com/@laxsociety" rel="noopener" target="_blank"><svg aria-hidden="true" width="18" height="18"><use href="#i-yt"/></svg><span>YouTube channel</span></a>
       <a class="btn btn-lg" href="https://github.com/LaxSociety" rel="noopener" target="_blank"><svg aria-hidden="true" width="18" height="18"><use href="#i-gh"/></svg><span>GitHub</span></a>
     </div>
-    <p class="stats"><span><b>15</b> projects</span><span><b>7</b> GitHub orgs</span><span><b>6</b> categories</span><span class="ok">status: <b>shipping</b></span></p>
-    <div class="paid">
-      <p class="ps"><span class="u">lax@society</span><span class="m">:</span><span class="d">~</span><span class="m">$</span> <span class="c"><span class="tok">./products</span> <span class="tok">--paid</span></span></p>
-      <ul aria-label="Products"><li><a href="https://gymnom.com" rel="noopener" target="_blank"><img class="logo" src="assets/logos/gymnom.png" alt="" width="40" height="40" decoding="async"><span class="pd"><strong>Gymnom</strong><span>Fitness and nutrition planner with an AI coach. iPhone and Android.</span></span><span class="go">gymnom.com<svg aria-hidden="true" width="18" height="18"><use href="#i-ext"/></svg></span><span class="sr"> (opens in new tab)</span></a></li><li><a href="https://xotale.com" rel="noopener" target="_blank"><img class="logo" src="assets/logos/xotale.png" alt="" width="40" height="40" decoding="async"><span class="pd"><strong>XOtale</strong><span>Private storybook gift websites for two.</span></span><span class="go">xotale.com<svg aria-hidden="true" width="18" height="18"><use href="#i-ext"/></svg></span><span class="sr"> (opens in new tab)</span></a></li></ul>
+    <p class="stats"><span><b>15</b> projects</span><span><b>7</b> GitHub orgs</span><span><b>7</b> pillars</span><span class="ok">status: <b>shipping</b></span></p>
+  </div>
+</div>
+
+<section id="products" aria-labelledby="products-h">
+  <div class="wrap">
+<div class="win win-paid">
+  <div class="win-bar" aria-hidden="true"><span class="dots"><i></i><i></i><i></i></span><span class="win-title">lax@society: ~/products</span></div>
+  <div class="win-body">
+    <p class="ps"><span class="u">lax@society</span><span class="m">:</span><span class="d">~</span><span class="m">$</span> <span class="c"><span class="tok">./products</span> <span class="tok">--paid</span></span></p>
+    <p class="free">free also available</p>
+    <h2 id="products-h">Products</h2>
+    <p class="lede"><span class="cm"># </span>Two apps with paid plans that keep the lights on. Both have a free option, so you can try them first.</p>
+    <div class="fgrid">
+<article class="fcard pcard" id="f-gymnom">
+  <p class="fpath"><span class="perm">-rwxr-xr-x</span> ~/products/gymnom/</p>
+  <div class="fhead"><img class="logo" src="assets/logos/gymnom.png" alt="" width="64" height="64" decoding="async"><div><h3>Gymnom</h3><p class="cat"><a href="https://gymnom.com" rel="noopener" target="_blank">gymnom.com<span class="sr"> (opens in new tab)</span></a></p></div><span class="st st-live">[FREE + PAID]</span></div>
+  <p class="tagline">Fitness and nutrition planner with an AI coach. iPhone and Android.</p>
+  <p class="desc">Gymnom is a fitness and nutrition planner for logging meals with estimated macros, planning workouts and tracking progress. It includes TDEE, BMR and BMI calculators, meal plans and an AI coach called Nom, and is free to start.</p>
+  <ul class="hl"><li>Log food by typing, talking, photo or barcode scan</li><li>Workout planner with 873 exercises and a rest timer</li><li>Nom AI coach with a weekly review</li></ul>
+  <ul class="chips" aria-label="Platforms"><li>Web</li><li>iOS</li><li>Android</li></ul>
+  <div class="actions"><a class="btn btn-primary" href="https://gymnom.com" rel="noopener" target="_blank" aria-label="Try Gymnom free (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Try free</span></a><a class="btn " href="https://apps.apple.com/app/id6806239096" rel="noopener" target="_blank" aria-label="Get Gymnom on the App Store (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-apple"/></svg><span>App Store</span></a><a class="btn " href="https://play.google.com/store/apps/details?id=com.gymnom.app" rel="noopener" target="_blank" aria-label="Get Gymnom on Google Play (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-play"/></svg><span>Google Play</span></a></div>
+</article>
+<article class="fcard pcard" id="f-xotale">
+  <p class="fpath"><span class="perm">-rwxr-xr-x</span> ~/products/xotale/</p>
+  <div class="fhead"><img class="logo" src="assets/logos/xotale.png" alt="" width="64" height="64" decoding="async"><div><h3>XOtale</h3><p class="cat"><a href="https://xotale.com" rel="noopener" target="_blank">xotale.com<span class="sr"> (opens in new tab)</span></a></p></div><span class="st st-live">[FREE + PAID]</span></div>
+  <p class="tagline">Private storybook gift websites for two.</p>
+  <p class="desc">XOtale lets you build a private gift website for a partner, friend or family member, behind a passcode at a link with their name. It holds your story timeline, a map of your places, letters sealed until a date and wishes from everyone, for birthdays, anniversaries and other occasions.</p>
+  <ul class="hl"><li>Open-when letters sealed until a chosen date</li><li>Wishes from family and friends, played as a montage</li><li>Party invites with an RSVP page and calendar links</li></ul>
+  <ul class="chips" aria-label="Platforms"><li>Web</li></ul>
+  <div class="actions"><a class="btn btn-primary" href="https://xotale.com" rel="noopener" target="_blank" aria-label="Try XOtale free (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Try free</span></a></div>
+</article>
     </div>
   </div>
 </div>
+  </div>
+</section>
 
 <section id="featured" aria-labelledby="featured-h">
   <div class="wrap">
@@ -622,24 +667,6 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
   <ul class="chips" aria-label="Platforms"><li>macOS</li><li>Windows (beta)</li></ul>
   <div class="actions"><a class="btn" href="https://jobcairn.github.io" rel="noopener" target="_blank" aria-label="JobCairn website (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Website</span></a><a class="btn" href="https://github.com/JobCairn/jobcairn" rel="noopener" target="_blank" aria-label="JobCairn on GitHub (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-gh"/></svg><span>GitHub</span></a><a class="btn btn-primary" href="https://github.com/JobCairn/jobcairn/releases/latest" rel="noopener" target="_blank" aria-label="Download JobCairn (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-dl"/></svg><span>Download</span></a></div>
 </article>
-<article class="fcard" id="f-gymnom">
-  <p class="fpath"><span class="perm">drwxr-xr-x</span> ~/products/gymnom/</p>
-  <div class="fhead"><img class="logo" src="assets/logos/gymnom.png" alt="" width="64" height="64" loading="lazy" decoding="async"><div><h3>Gymnom</h3><p class="cat">--web</p></div><span class="st st-live" title="Status: Live"><span class="sr">Status: </span>[LIVE]</span></div>
-  <p class="tagline">Food, workouts and AI coaching in one plan</p>
-  <p class="desc">Gymnom is a fitness and nutrition planner for logging meals with estimated macros, planning workouts and tracking progress. It includes TDEE, BMR and BMI calculators, meal plans and an AI coach called Nom, and is free to start.</p>
-  <ul class="hl"><li>Log food by typing, talking, photo or barcode scan</li><li>Workout planner with 873 exercises and a rest timer</li><li>Nom AI coach with a weekly review</li></ul>
-  <ul class="chips" aria-label="Platforms"><li>Web</li><li>iOS</li><li>Android</li></ul>
-  <div class="actions"><a class="btn btn-primary" href="https://gymnom.com" rel="noopener" target="_blank" aria-label="Try Gymnom (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Try Gymnom</span></a><a class="btn " href="https://apps.apple.com/app/id6806239096" rel="noopener" target="_blank" aria-label="Get Gymnom on the App Store (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-apple"/></svg><span>App Store</span></a><a class="btn " href="https://play.google.com/store/apps/details?id=com.gymnom.app" rel="noopener" target="_blank" aria-label="Get Gymnom on Google Play (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-play"/></svg><span>Google Play</span></a></div>
-</article>
-<article class="fcard" id="f-xotale">
-  <p class="fpath"><span class="perm">drwxr-xr-x</span> ~/products/xotale/</p>
-  <div class="fhead"><img class="logo" src="assets/logos/xotale.png" alt="" width="64" height="64" loading="lazy" decoding="async"><div><h3>XOtale</h3><p class="cat">--web</p></div><span class="st st-live" title="Status: Live"><span class="sr">Status: </span>[LIVE]</span></div>
-  <p class="tagline">A private gift website for someone you love</p>
-  <p class="desc">XOtale lets you build a private gift website for a partner, friend or family member, behind a passcode at a link with their name. It holds your story timeline, a map of your places, letters sealed until a date and wishes from everyone, for birthdays, anniversaries and other occasions.</p>
-  <ul class="hl"><li>Open-when letters sealed until a chosen date</li><li>Wishes from family and friends, played as a montage</li><li>Party invites with an RSVP page and calendar links</li></ul>
-  <ul class="chips" aria-label="Platforms"><li>Web</li></ul>
-  <div class="actions"><a class="btn btn-primary" href="https://xotale.com" rel="noopener" target="_blank" aria-label="Create your XOtale story (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Create your XOtale story</span></a></div>
-</article>
 <article class="fcard" id="f-keepwatch">
   <p class="fpath"><span class="perm">drwxr-xr-x</span> ~/projects/AgentSkillDeck/keepwatch/</p>
   <div class="fhead"><img class="logo" src="assets/logos/keepwatch.png" alt="" width="64" height="64" loading="lazy" decoding="async"><div><h3>Keepwatch</h3><p class="cat">--mac</p></div><span class="st st-live" title="Status: Live"><span class="sr">Status: </span>[LIVE]</span></div>
@@ -651,12 +678,12 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
 </article>
 <article class="fcard" id="f-skills">
   <p class="fpath"><span class="perm">drwxr-xr-x</span> ~/projects/AgentSkillDeck/skills/</p>
-  <div class="fhead"><img class="logo" src="assets/logos/skills.png" alt="" width="64" height="64" loading="lazy" decoding="async"><div><h3>AgentSkillDeck Skills</h3><p class="cat">--ai</p></div><span class="st st-oss" title="Status: Open source"><span class="sr">Status: </span>[OSS]</span></div>
+  <div class="fhead"><img class="logo" src="assets/logos/skills.png" alt="" width="64" height="64" loading="lazy" decoding="async"><div><h3>Agentic Skill Deck</h3><p class="cat">--ai</p></div><span class="st st-oss" title="Status: Open source"><span class="sr">Status: </span>[OSS]</span></div>
   <p class="tagline">Open plugins and skills for Claude Code and other coding agents</p>
   <p class="desc">A plugin marketplace with two plugins, ui and audio, holding seven skills for coding agents. ui designs, reviews and matches interfaces, and audio turns a script into multi-voice audio on your own machine.</p>
   <ul class="hl"><li>ui plugin: design, review, design-system research and screenshot-to-UI</li><li>audio plugin: scripts, on-device voices, captions and licensed sound</li><li>Install with /plugin marketplace add AgentSkillDeck/skills</li></ul>
   <ul class="chips" aria-label="Platforms"><li>Claude Code</li><li>Coding agents</li></ul>
-  <div class="actions"><a class="btn" href="https://agentskilldeck.github.io" rel="noopener" target="_blank" aria-label="AgentSkillDeck Skills website (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Website</span></a><a class="btn" href="https://github.com/AgentSkillDeck/skills" rel="noopener" target="_blank" aria-label="AgentSkillDeck Skills on GitHub (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-gh"/></svg><span>GitHub</span></a></div>
+  <div class="actions"><a class="btn" href="https://agentskilldeck.github.io" rel="noopener" target="_blank" aria-label="Agentic Skill Deck website (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Website</span></a><a class="btn" href="https://github.com/AgentSkillDeck/skills" rel="noopener" target="_blank" aria-label="Agentic Skill Deck on GitHub (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-gh"/></svg><span>GitHub</span></a></div>
 </article>
     </div>
   </div>
@@ -664,7 +691,7 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
   </div>
 </section>
 
-<section id="projects" aria-labelledby="projects-h">
+<section id="all" aria-labelledby="projects-h">
   <div class="wrap">
 <div class="win ">
   <div class="win-bar" aria-hidden="true"><span class="dots"><i></i><i></i><i></i></span><span class="win-title">lax@society: ~/projects (ls -la)</span></div>
@@ -674,14 +701,16 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
     <p class="lede"><span class="cm"># </span>Everything in one place, from current apps to older experiments. Pick a flag to filter, and open a row to see the details.</p>
     <div class="flags" role="group" aria-label="Filter projects by category">
 <button type="button" class="flag" data-filter="all" aria-pressed="true" aria-label="--all 15, all projects">--all <span>15</span></button>
+<button type="button" class="flag" data-filter="ai" aria-pressed="false" aria-label="--ai 6, category: AI, LLMs &amp; agents">--ai <span>6</span></button>
+<button type="button" class="flag" data-filter="robotics" aria-pressed="false" aria-label="--robotics 0, category: Robotics">--robotics <span>0</span></button>
 <button type="button" class="flag" data-filter="tv" aria-pressed="false" aria-label="--tv 1, category: TV">--tv <span>1</span></button>
 <button type="button" class="flag" data-filter="mac" aria-pressed="false" aria-label="--mac 1, category: Mac apps">--mac <span>1</span></button>
-<button type="button" class="flag" data-filter="ai" aria-pressed="false" aria-label="--ai 6, category: AI &amp; agents">--ai <span>6</span></button>
 <button type="button" class="flag" data-filter="web" aria-pressed="false" aria-label="--web 3, category: Web &amp; data">--web <span>3</span></button>
 <button type="button" class="flag" data-filter="games" aria-pressed="false" aria-label="--games 1, category: Games">--games <span>1</span></button>
 <button type="button" class="flag" data-filter="classic" aria-pressed="false" aria-label="--classic 3, category: Classic projects">--classic <span>3</span></button>
     </div>
     <p class="result" id="result" aria-live="polite">total 15 <span class="cm">· showing 15 of 15 projects</span></p>
+    <p class="empty" id="empty" hidden>ls: no robotics projects yet. Robotics experiments are <a href="#coming">coming soon</a>.</p>
     <ul class="rows" id="rows">
 <li class="row" data-cat="tv"><details id="p-mktv">
   <summary><span class="perm" aria-hidden="true">drwxr-xr-x</span><img class="logo" src="assets/logos/mktv.png" alt="" width="32" height="32" loading="lazy" decoding="async"><span class="rname"><strong>mkTV</strong><span class="rtag">A web browser built for the TV remote</span></span><span class="rcat">--tv</span><span class="st st-live" title="Status: Live"><span class="sr">Status: </span>[LIVE]</span><svg class="chev" aria-hidden="true" width="18" height="18"><use href="#i-chev"/></svg></summary>
@@ -710,7 +739,7 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
     <p class="desc">Gymnom is a fitness and nutrition planner for logging meals with estimated macros, planning workouts and tracking progress. It includes TDEE, BMR and BMI calculators, meal plans and an AI coach called Nom, and is free to start.</p>
     <ul class="hl"><li>Log food by typing, talking, photo or barcode scan</li><li>Workout planner with 873 exercises and a rest timer</li><li>Nom AI coach with a weekly review</li></ul>
     <ul class="chips" aria-label="Platforms"><li>Web</li><li>iOS</li><li>Android</li></ul>
-    <div class="actions"><a class="btn btn-primary" href="https://gymnom.com" rel="noopener" target="_blank" aria-label="Try Gymnom (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Try Gymnom</span></a><a class="btn " href="https://apps.apple.com/app/id6806239096" rel="noopener" target="_blank" aria-label="Get Gymnom on the App Store (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-apple"/></svg><span>App Store</span></a><a class="btn " href="https://play.google.com/store/apps/details?id=com.gymnom.app" rel="noopener" target="_blank" aria-label="Get Gymnom on Google Play (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-play"/></svg><span>Google Play</span></a></div>
+    <div class="actions"><a class="btn btn-primary" href="https://gymnom.com" rel="noopener" target="_blank" aria-label="Try Gymnom free (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Try free</span></a><a class="btn " href="https://apps.apple.com/app/id6806239096" rel="noopener" target="_blank" aria-label="Get Gymnom on the App Store (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-apple"/></svg><span>App Store</span></a><a class="btn " href="https://play.google.com/store/apps/details?id=com.gymnom.app" rel="noopener" target="_blank" aria-label="Get Gymnom on Google Play (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-play"/></svg><span>Google Play</span></a></div>
   </div>
 </details></li>
 <li class="row" data-cat="web"><details id="p-xotale">
@@ -720,7 +749,7 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
     <p class="desc">XOtale lets you build a private gift website for a partner, friend or family member, behind a passcode at a link with their name. It holds your story timeline, a map of your places, letters sealed until a date and wishes from everyone, for birthdays, anniversaries and other occasions.</p>
     <ul class="hl"><li>Open-when letters sealed until a chosen date</li><li>Wishes from family and friends, played as a montage</li><li>Party invites with an RSVP page and calendar links</li></ul>
     <ul class="chips" aria-label="Platforms"><li>Web</li></ul>
-    <div class="actions"><a class="btn btn-primary" href="https://xotale.com" rel="noopener" target="_blank" aria-label="Create your XOtale story (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Create your XOtale story</span></a></div>
+    <div class="actions"><a class="btn btn-primary" href="https://xotale.com" rel="noopener" target="_blank" aria-label="Try XOtale free (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Try free</span></a></div>
   </div>
 </details></li>
 <li class="row" data-cat="mac"><details id="p-keepwatch">
@@ -734,13 +763,13 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
   </div>
 </details></li>
 <li class="row" data-cat="ai"><details id="p-skills">
-  <summary><span class="perm" aria-hidden="true">drwxr-xr-x</span><img class="logo" src="assets/logos/skills.png" alt="" width="32" height="32" loading="lazy" decoding="async"><span class="rname"><strong>AgentSkillDeck Skills</strong><span class="rtag">Open plugins and skills for Claude Code and other coding agents</span></span><span class="rcat">--ai</span><span class="st st-oss" title="Status: Open source"><span class="sr">Status: </span>[OSS]</span><svg class="chev" aria-hidden="true" width="18" height="18"><use href="#i-chev"/></svg></summary>
+  <summary><span class="perm" aria-hidden="true">drwxr-xr-x</span><img class="logo" src="assets/logos/skills.png" alt="" width="32" height="32" loading="lazy" decoding="async"><span class="rname"><strong>Agentic Skill Deck</strong><span class="rtag">Open plugins and skills for Claude Code and other coding agents</span></span><span class="rcat">--ai</span><span class="st st-oss" title="Status: Open source"><span class="sr">Status: </span>[OSS]</span><svg class="chev" aria-hidden="true" width="18" height="18"><use href="#i-chev"/></svg></summary>
   <div class="rbody">
     <p class="fpath">~/projects/AgentSkillDeck/skills/</p>
     <p class="desc">A plugin marketplace with two plugins, ui and audio, holding seven skills for coding agents. ui designs, reviews and matches interfaces, and audio turns a script into multi-voice audio on your own machine.</p>
     <ul class="hl"><li>ui plugin: design, review, design-system research and screenshot-to-UI</li><li>audio plugin: scripts, on-device voices, captions and licensed sound</li><li>Install with /plugin marketplace add AgentSkillDeck/skills</li></ul>
     <ul class="chips" aria-label="Platforms"><li>Claude Code</li><li>Coding agents</li></ul>
-    <div class="actions"><a class="btn" href="https://agentskilldeck.github.io" rel="noopener" target="_blank" aria-label="AgentSkillDeck Skills website (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Website</span></a><a class="btn" href="https://github.com/AgentSkillDeck/skills" rel="noopener" target="_blank" aria-label="AgentSkillDeck Skills on GitHub (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-gh"/></svg><span>GitHub</span></a></div>
+    <div class="actions"><a class="btn" href="https://agentskilldeck.github.io" rel="noopener" target="_blank" aria-label="Agentic Skill Deck website (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-globe"/></svg><span>Website</span></a><a class="btn" href="https://github.com/AgentSkillDeck/skills" rel="noopener" target="_blank" aria-label="Agentic Skill Deck on GitHub (opens in new tab)"><svg aria-hidden="true" width="18" height="18"><use href="#i-gh"/></svg><span>GitHub</span></a></div>
   </div>
 </details></li>
 <li class="row" data-cat="web"><details id="p-visaradar">
@@ -839,6 +868,25 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
   </div>
 </section>
 
+<section id="coming" aria-labelledby="coming-h">
+  <div class="wrap">
+<div class="win ">
+  <div class="win-bar" aria-hidden="true"><span class="dots"><i></i><i></i><i></i></span><span class="win-title">lax@society: ~/coming-up</span></div>
+  <div class="win-body">
+    <p class="ps"><span class="u">lax@society</span><span class="m">:</span><span class="d">~</span><span class="m">$</span> <span class="c"><span class="tok">ls</span> <span class="tok">./coming-up</span></span></p>
+    <h2 id="coming-h">Coming up</h2>
+    <p class="lede"><span class="cm"># </span>LLM, AI agent and robotics builds, coming soon. Nothing here has shipped yet; new builds land on YouTube every 2nd Friday.</p>
+    <p class="result">total 3</p>
+    <ul class="soon">
+      <li><span class="perm">drwxr-xr-x</span><span class="g">llm/</span><span class="sd">LLM builds</span><span class="a">[SOON]</span></li>
+      <li><span class="perm">drwxr-xr-x</span><span class="g">ai-agents/</span><span class="sd">AI agent builds</span><span class="a">[SOON]</span></li>
+      <li><span class="perm">drwxr-xr-x</span><span class="g">robotics/</span><span class="sd">Robotics experiments</span><span class="a">[SOON]</span></li>
+    </ul>
+  </div>
+</div>
+  </div>
+</section>
+
 <section id="orgs" aria-labelledby="orgs-h">
   <div class="wrap">
 <div class="win ">
@@ -910,7 +958,8 @@ footer .f-brand img{width:28px;height:28px;border-radius:6px;image-rendering:pix
 </footer>
 
 <script>
-var PROJECTS={"mktv": "mkTV", "jobcairn": "JobCairn", "gymnom": "Gymnom", "xotale": "XOtale", "keepwatch": "Keepwatch", "skills": "AgentSkillDeck Skills", "visaradar": "VisaRadar", "ludo-raja": "Ludo Raja", "offline-chat-application": "Offline Chat Application", "pmagent": "PMAgent", "ai-chat-with-camera-integration": "AI Chat with Camera Integration", "live-streaming-object-emotion-detection": "Live Streaming Object/Emotion Detection", "toggle": "Toggle", "object-detection-opencv": "Object Detection using OpenCV", "jklwatch": "JKLWATCH"};
+var PROJECTS={"mktv": "mkTV", "jobcairn": "JobCairn", "gymnom": "Gymnom", "xotale": "XOtale", "keepwatch": "Keepwatch", "skills": "Agentic Skill Deck", "visaradar": "VisaRadar", "ludo-raja": "Ludo Raja", "offline-chat-application": "Offline Chat Application", "pmagent": "PMAgent", "ai-chat-with-camera-integration": "AI Chat with Camera Integration", "live-streaming-object-emotion-detection": "Live Streaming Object/Emotion Detection", "toggle": "Toggle", "object-detection-opencv": "Object Detection using OpenCV", "jklwatch": "JKLWATCH"};
+var PRODUCTS=[["Gymnom", "Fitness and nutrition planner with an AI coach. iPhone and Android.", "https://gymnom.com"], ["XOtale", "Private storybook gift websites for two.", "https://xotale.com"]];
 (function(){
   var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -927,12 +976,14 @@ var PROJECTS={"mktv": "mkTV", "jobcairn": "JobCairn", "gymnom": "Gymnom", "xotal
 
   /* category flags */
   var flags=document.querySelectorAll('.flag'),rows=document.querySelectorAll('#rows .row'),
-      out=document.getElementById('result'),echo=document.getElementById('flagecho');
+      out=document.getElementById('result'),echo=document.getElementById('flagecho'),
+      empty=document.getElementById('empty');
   function apply(f){
     var n=0;
     rows.forEach(function(r){var show=f==='all'||r.dataset.cat===f;r.hidden=!show;if(show)n++;});
     flags.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.filter===f?'true':'false');});
     echo.textContent='--'+f;
+    empty.hidden=n>0;
     out.innerHTML='';
     out.appendChild(document.createTextNode('total '+n+' '));
     var s=document.createElement('span');s.className='cm';
@@ -969,6 +1020,7 @@ var PROJECTS={"mktv": "mkTV", "jobcairn": "JobCairn", "gymnom": "Gymnom", "xotal
     help:function(){
       line('commands:');
       line('  ls              list projects');
+      line('  products        paid products (free also available)');
       line('  open <project>  jump to a project, e.g. open mktv');
       line('  whoami          who builds this');
       line('  github          GitHub org');
@@ -976,6 +1028,7 @@ var PROJECTS={"mktv": "mkTV", "jobcairn": "JobCairn", "gymnom": "Gymnom", "xotal
       line('  clear           clear the screen');
     },
     ls:function(){
+      line('  products/','ok');
       Object.keys(PROJECTS).forEach(function(s){line('  '+s+'/');});
       line('total '+Object.keys(PROJECTS).length,'cm');
     },
@@ -996,12 +1049,17 @@ var PROJECTS={"mktv": "mkTV", "jobcairn": "JobCairn", "gymnom": "Gymnom", "xotal
     },
     github:function(){link('github.com/LaxSociety','https://github.com/LaxSociety');},
     youtube:function(){link('youtube.com/@laxsociety','https://www.youtube.com/@laxsociety');},
+    products:function(){
+      line('free also available','ok');
+      PRODUCTS.forEach(function(p){line(p[0]+': '+p[1]);link(p[2].replace('https://',''),p[2]);});
+    },
     clear:function(){log.textContent='';},
     sudo:function(){line('lax is not in the sudoers file. This incident will be reported.','err');},
     exit:function(){line('nice try. there is no escape from open source.','cm');}
   };
   cmds.cd=function(arg){if(arg&&find(arg))cmds.open(arg);else line('cd: try open <project>','cm');};
   cmds.cat=cmds.open;
+  cmds['./products']=cmds.products;
   form.addEventListener('submit',function(ev){
     ev.preventDefault();
     var raw=input.value.trim();input.value='';
