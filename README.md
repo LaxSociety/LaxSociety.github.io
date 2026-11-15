@@ -28,14 +28,17 @@ python3 -m http.server 8823
 
 Each project appears twice in `index.html`. Featured projects get an `article.fcard` in the Featured window. Every project also gets an `li.row` in the All projects list, which is a `<details>` element whose `<summary>` is the `ls -la` line. Copy an existing entry and change the text and links. Set `data-cat` on the row to one of the filter values (`tv`, `mac`, `ai`, `web`, `games`, `classic`) and update the counts on the flag buttons. Add the logo to `assets/logos/`. Add the project to the `PROJECTS` map in the script at the bottom so the shell's `open` command can find it, and to the `ItemList` in the JSON-LD block in `<head>`.
 
-## Swapping the logo
+## Project order
 
-The nav, footer and SVG favicon all use `assets/logo.svg`. To change the logo, replace that file, then regenerate the PNG sizes from an 800×800 PNG export:
+Newest and earning first: mkTV, JobCairn, Gymnom, XOtale, Keepwatch, AgentSkillDeck Skills, VisaRadar, Ludo Raja, then the earlier 2019 to 2024 projects. Featured shows the first six. Gymnom and XOtale are paid products: they also appear under `./products --paid` in the hero and are never labelled open source. Keep the JSON-LD `ItemList` in the same order.
 
-```sh
-for s in 32:favicon-32 180:apple-touch-icon 96:logo-96 512:logo-512; do
-  sips -z ${s%%:*} ${s%%:*} logo-800.png --out assets/${s##*:}.png
-done
-```
+## Logo
 
-`logo-512.png` is the Organization logo in the JSON-LD.
+The logo files come from the brand exports in `youtube-channel/logo-final/`:
+
+- `assets/lockup.svg`: hood + LAX SOCIETY lockup in the nav
+- `assets/logo.svg`: hood with LS eyes, used in the footer and og.png
+- `assets/favicon.svg`, `favicon-32.png`, `apple-touch-icon.png`: favicons
+- `assets/logo-96.png`, `logo-512.png`: made from the 800px avatar with `sips -z`. `logo-512.png` is the Organization logo in the JSON-LD.
+
+To swap the logo, copy the new exports over these files.
